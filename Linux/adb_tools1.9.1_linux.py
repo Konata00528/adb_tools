@@ -166,7 +166,7 @@ while True :
         elif pu == "2" :
             ptc = str(input("文件绝对路径:"))
             ptp = str(input("保存到哪里:"))
-            cmd = "adb pull " + ptp+ " " + ptc
+            cmd = "adb pull " + ptc+ " " + ptp
             os.system(cmd)
             clear(2)
     
