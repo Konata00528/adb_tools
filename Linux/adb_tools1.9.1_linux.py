@@ -149,7 +149,7 @@ while True :
     
     elif a == 8 : #virtual input
         k = str(input("模拟输入:（空格使用“%s”代替）"))
-        kk = "adb shell input text" + k
+        kk = "adb shell input text " + k
         os.system(kk)
         os.system("clear")    
     
